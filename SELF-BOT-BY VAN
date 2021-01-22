@@ -1,1 +1,99 @@
 
+case 'bcgrup': 
+            if (!isOwnerBot) return aruga.reply(from, 'Perintah ini hanya untuk Owner bot', id)
+            const allChatz = await aruga.getAllChatIds()
+            const allGroupz = await aruga.getAllGroups()
+            for (let gclist of allGroupz) {
+                await aruga.sendText(gclist.contact.id, `${q}`)
+            }
+            aruga.reply(from, 'Success Broadcast all group, id)
+            break◪ 𝗜𝗡𝗙𝗢
+  ❏ Ver : Baileys
+  ❏ Prefix :「 z 」
+  ❏ Creator : Fauzan
+◪ Group Menu
+  │
+  ├─ ❏ zhidetag <teks>
+  ├─ ❏ zlistadmin
+  ├─ ❏ zgrup close|open
+  ├─ ❏ zgcname <teks>
+  ├─ ❏ zgcdesk <teks>
+  ├─ ❏ zadd 62xxx
+  ├─ ❏ zkick 62xxx
+  ├─ ❏ zpromote @tag
+  ├─ ❏ zdemote @tag
+  ├─ ❏ zleave
+  ├─ ❏ zinfogc
+  ├─ ❏ zlinkgc
+  └─ ❏ zclone
+
+
+◪ Anime Menu
+  │
+  ├─ ❏ zrandomwblowjob
+  ├─ ❏ zrandomhentai
+  ├─ ❏ znsfwneko
+  ├─ ❏ znsfwtrap
+  ├─ ❏ zanimehuggif
+  ├─ ❏ zloli
+  ├─ ❏ zshota
+  ├─ ❏ zotakulast
+  └─ ❏ zwaifu
+
+◪ Media Menu
+  │
+  ├─ ❏ zssweb <link>
+  ├─ ❏ ztomp3 <reply video>
+  ├─ ❏ zbrainly
+  ├─ ❏ ztruth
+  ├─ ❏ zdare
+  ├─ ❏ ztts
+  ├─ ❏ zwait
+  ├─ ❏ zocr
+  ├─ ❏ zjoox <optional>
+  ├─ ❏ zplay <optional>
+  ├─ ❏ zpinterest <optional>
+  ├─ ❏ zlogowolf [teks]
+  ├─ ❏ zsimi [teks]
+  ├─ ❏ ztahta [teks]
+  ├─ ❏ zthunder [teks]
+  ├─ ❏ zwiki [teks]
+  ├─ ❏ zmap [teks]
+  ├─ ❏ zkbbi [teks]
+  ├─ ❏ ztinyurl <link>
+  ├─ ❏ zytmp4 <link>
+  └─ ❏ zhowak
+
+◪ Storage Menu
+  │
+  ├─ ❏ zaddsticker <optional>
+  ├─ ❏ zgetsticker <optional>
+  ├─ ❏ zliststicker
+  ├─ ❏ zaddvn <optional>
+  ├─ ❏ zgetvn <optional>
+  ├─ ❏ zlistvn
+  ├─ ❏ zaddvideo <optional>
+  ├─ ❏ zgetvideo <optional>
+  ├─ ❏ zlistvideo
+  ├─ ❏ zaddimage <optional>
+  ├─ ❏ zgetimage <optional>
+  ├─ ❏ zlistimage
+  ├─ ❏ zsticker
+  └─ ❏ ztoimg
+  
+◪ Advance Menu
+  │
+  ├─ ❏ zbc
+  ├─ ❏ zpayment
+  ├─ ❏ zcr1 @tag text|text
+  ├─ ❏ zcr2 <versi private>
+  ├─ ❏ zruntime
+  ├─ ❏ zsettarget
+  ├─ ❏ zterm <exec>
+  ├─ ❏ zping
+  ├─ ❏ zsetreply
+  ├─ ❏ zsetnumber
+  ├─ ❏ zsetprefix
+  ├─ ❏ zcekchat
+  └─ ❏ zblocklist
+◩ 𝗦𝗲𝗹𝗳 𝗕𝗼𝘁
